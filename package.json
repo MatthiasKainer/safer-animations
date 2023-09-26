@@ -1,0 +1,22 @@
+{
+  "name": "safer-animations",
+  "version": "1.0.0",
+  "description": "Create JS Animations that are CSP compliant",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "rm -rf dist && parcel",
+    "build": "rm -rf docs && parcel build --dist-dir docs"
+  },
+  "author": "Matthias Kainer",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "lit": "^2.8.0",
+    "nested-css-to-flat": "^1.0.5",
+    "pure-lit": "^2.0.7"
+  }
+}
